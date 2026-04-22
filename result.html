@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App - Result</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/quiz.css" />
+</head>
+<body>
+  <div class="result-container">
+    <div class="result-card fade-in">
+      <h1>Quiz Result</h1>
+      <p><strong>Total Questions:</strong> <span id="totalQuestions"></span></p>
+      <p><strong>Correct Answers:</strong> <span id="correctAnswers"></span></p>
+      <p><strong>Your Score:</strong> <span id="scoreText"></span></p>
+
+      <div class="result-buttons">
+        <a href="quiz.html" class="btn">Restart Quiz</a>
+        <a href="dashboard.html" class="btn">Back to Dashboard</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/result.js"></script>
+</body>
+</html>
